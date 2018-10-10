@@ -19,4 +19,9 @@ class School
     return roster[grade_num]
   end
   
+  def sorted_students 
+    roster.map do |grade|
+      grade.sort
+  end
+  
 end 
