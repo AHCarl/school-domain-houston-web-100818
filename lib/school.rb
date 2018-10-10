@@ -7,6 +7,7 @@ class School
   end
   
   def add_student(student, grade)
-    if 
+    if roster.include?(grade)
+      
   
 end 
